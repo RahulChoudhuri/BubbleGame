@@ -1,0 +1,84 @@
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background: rgb(130, 169, 130);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel{
+    border-radius: 5px;
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.panel__top{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(62, 92, 62);
+}
+
+.panel__elem{
+    padding: 0 10%;
+   
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.panel__box{
+    color:rgb(14, 69, 14);
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 700;
+    background-color: #fff;
+}
+
+.panel__buttom{
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100% - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bubble{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(62, 92, 62);
+    color: #fff;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.bubble:hover{
+    background-color: rgb(34, 51, 34);
+}
